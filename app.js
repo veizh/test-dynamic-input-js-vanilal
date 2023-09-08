@@ -5,6 +5,7 @@ const reggexPrenom = /[a-zA-Z]{2,}/;
 let tmp = [["first ","text","rentrer votre prénom :","jean","je suis l'erreur","required",reggexPrenom],
    ["last ","text","rentrer votre nom :","jean","je suis l'erreur","required",reggexPrenom],
    ["mail","text","rentrer votre mail :","jean","je suis l'erreur","required",reggexMail],
+   ["v","checkbox","j'aime :","jean","je suis l'erreur","required",reggexMail],
 ]
 tmp.forEach(element => {
    let tmp =  new input(...element)

@@ -23,7 +23,9 @@
         flex-direction: column;
         justify-content: center;
         gap: 10px;
-        
+        &.checkbox{
+            flex-direction: row;
+        }
         input{
             border: 1px solid gray;
             border-radius: 5px;
@@ -40,6 +42,7 @@
             display: none!important;
         }
         .err{
+            width: 100%;
             display: block;
             color: red;
         }

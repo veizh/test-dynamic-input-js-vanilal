@@ -26,6 +26,9 @@
   justify-content: center;
   gap: 10px;
 }
+.container-form .container-input.checkbox {
+  flex-direction: row;
+}
 .container-form .container-input input {
   border: 1px solid gray;
   border-radius: 5px;
@@ -42,6 +45,7 @@
   display: none !important;
 }
 .container-form .container-input .err {
+  width: 100%;
   display: block;
   color: red;
 }/*# sourceMappingURL=main.css.map */

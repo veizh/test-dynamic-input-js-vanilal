@@ -36,7 +36,7 @@ class input {
     return input
   }
   checkValidity(){
-    if(!this.reggex.test(this.input.value)){
+    if(!this.reggex.test(this.input.value) && this.input.value!==""){
       console.log("il y'a une erreur");
       this.err.classList.remove('invisible')
       this.input.classList.add('error')
